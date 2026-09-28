@@ -33,3 +33,10 @@ Il **ne modifie rien** : il lit seulement des informations.
 
 Le rapport commence par un **résumé** classé en CRITIQUE / ATTENTION / CONSEIL,
 suivi des détails.
+
+## Nettoyer les doublons du dossier Téléchargements
+
+`Nettoyer-Doublons.bat` repère les fichiers au contenu identique dans
+Téléchargements (même si leur nom diffère), garde l'original et envoie les
+copies à la **Corbeille** après confirmation (tapez **O**). Rien n'est effacé
+définitivement : clic droit > Restaurer dans la Corbeille pour récupérer un fichier.
