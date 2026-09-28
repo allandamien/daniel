@@ -6,7 +6,8 @@ Il **ne modifie rien** : il lit seulement des informations.
 ## Utilisation
 
 1. Sur GitHub, cliquez sur **Code > Download ZIP**, puis décompressez le dossier
-   (clic droit > **Extraire tout**).
+   (clic droit > **Extraire tout**). Ne lancez pas le fichier depuis
+   l'intérieur du ZIP : il ne trouverait pas le script.
 2. Double-cliquez sur **`Lancer-Diagnostic.bat`** et acceptez la demande
    « Voulez-vous autoriser cette application… » (droits administrateur).
    Si Windows affiche « Windows a protégé votre ordinateur », cliquez sur
