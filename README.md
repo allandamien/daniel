@@ -40,3 +40,21 @@ suivi des détails.
 Téléchargements (même si leur nom diffère), garde l'original et envoie les
 copies à la **Corbeille** après confirmation (tapez **O**). Rien n'est effacé
 définitivement : clic droit > Restaurer dans la Corbeille pour récupérer un fichier.
+
+## Trier les icônes du Bureau
+
+`Ranger-Bureau.bat` garde sur le Bureau les icônes **indispensables** et range
+les autres dans un dossier **Rangement du Bureau**, classées par type
+(Raccourcis, Raccourcis cassés, Documents, Images, Vidéos, Musique, Archives,
+Installateurs, Autres). La liste s'affiche d'abord ; tapez **O** pour confirmer.
+
+Restent sur le Bureau :
+- les raccourcis des programmes courants : navigateur (Chrome, Edge, Firefox…),
+  messagerie (Outlook, Thunderbird), Word, Excel, PowerPoint, LibreOffice,
+  Acrobat, VLC, Zoom, Teams, WhatsApp, Skype ;
+- les fichiers modifiés depuis moins de 14 jours (travail en cours) ;
+- les dossiers, la Corbeille et Ce PC.
+
+Rien n'est supprimé. Pour tout remettre comme avant, double-cliquez sur
+`Annuler-Rangement-Bureau.bat`. Pour qu'une autre icône reste sur le Bureau,
+ajoutez son nom dans la liste en haut de `Ranger-Bureau.ps1`.
