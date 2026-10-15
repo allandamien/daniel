@@ -40,3 +40,11 @@ suivi des détails.
 Téléchargements (même si leur nom diffère), garde l'original et envoie les
 copies à la **Corbeille** après confirmation (tapez **O**). Rien n'est effacé
 définitivement : clic droit > Restaurer dans la Corbeille pour récupérer un fichier.
+
+## Réveiller le PC tous les jours à 7h
+
+`Programmer-Reveil.bat` programme le PC pour qu'il **sorte de la veille** tous
+les jours à 7h00 (acceptez la demande d'autorisation administrateur).
+Le soir, mettez le PC **en veille** et non « Arrêter » : un PC complètement
+éteint ne peut être rallumé que par l'option « RTC Alarm » du BIOS.
+Relancez le même fichier pour supprimer le réveil.
